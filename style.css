@@ -1,0 +1,110 @@
+/* my css code for the index.html file i created last time */
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightgrey; 
+    color: darkslategrey; 
+    margin: 20px;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Styling for headings */
+h2 {
+    color: slategrey;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Styling for the ordered list with Roman numerals */
+ol {
+    list-style-type: upper-roman;
+    margin-left: 20px;
+    font-size: 18px;
+    color: slategrey;
+}
+
+/* Styling for the image */
+.styled-image {
+    border: 5px solid silver; 
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: white; 
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white; 
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid silver; 
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: slategrey; 
+    color: white; 
+}
+
+table tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+/* Styling for the form */
+form {
+    background-color: white; 
+    padding: 20px;
+    border: 1px solid silver; 
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: slategrey; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid silver; 
+    border-radius: 4px;
+    font-size: 16px;
+    color: darkslategrey; 
+    background-color: whitesmoke; 
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+form input[type="submit"] {
+            background-color: slategrey; 
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: darkslategrey;
+        }
